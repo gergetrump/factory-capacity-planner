@@ -1,0 +1,126 @@
+{
+  "benchmark_format_version": 1,
+  "case": "lookahead",
+  "fixture": "../fixtures/lookahead.json",
+  "measurement": {
+    "case": "lookahead",
+    "repeat": 2,
+    "order_position": 2,
+    "method": "portfolio",
+    "status": "heuristic_feasible",
+    "termination": null,
+    "checked_feasible": true,
+    "objective": 0,
+    "final_backlog_units": 0,
+    "objective_bound": null,
+    "relative_gap": null,
+    "wall_seconds": 0.0009176731109619141,
+    "solver_seconds": null,
+    "failure_kind": null,
+    "error": null
+  },
+  "result": {
+    "status": "heuristic_feasible",
+    "solution": {
+      "objective": 0,
+      "production": [
+        {
+          "product_id": "A",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 1
+        },
+        {
+          "product_id": "A",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        }
+      ],
+      "activity": [
+        {
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "active": 0
+        }
+      ],
+      "stock": [
+        {
+          "product_id": "A",
+          "shift_id": "T1",
+          "inventory_units": 1,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "A",
+          "shift_id": "T2",
+          "inventory_units": 0,
+          "backlog_units": 0
+        }
+      ],
+      "metrics": {
+        "backlog_unit_shifts": 0,
+        "final_backlog_units": 0,
+        "active_cell_shifts": 1,
+        "inventory_unit_shifts": 1,
+        "produced_units": 1,
+        "machine_minutes_used": 1,
+        "machine_minutes_available": 1,
+        "capacity_utilization": 1.0,
+        "cell_usage": [
+          {
+            "cell_id": "C1",
+            "shift_id": "T1",
+            "used_minutes": 1,
+            "available_minutes": 1,
+            "utilization": 1.0
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T2",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          }
+        ],
+        "staffing": [
+          {
+            "shift_id": "T1",
+            "reserved_operators": 1,
+            "available_operators": 1,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T2",
+            "reserved_operators": 0,
+            "available_operators": 1,
+            "reservation_share": 0.0
+          }
+        ]
+      }
+    },
+    "validation": {
+      "valid": true,
+      "errors": []
+    },
+    "solver": null,
+    "settings": {},
+    "error": null,
+    "diagnostics": {
+      "selected_policy": "window_2_scarcity",
+      "candidate_count": 5,
+      "candidate_objectives": {
+        "original_greedy": 1,
+        "window_1_urgency": 1,
+        "window_1_scarcity": 1,
+        "window_2_urgency": 0,
+        "window_2_scarcity": 0
+      }
+    }
+  }
+}

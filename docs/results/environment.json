@@ -1,0 +1,8 @@
+{
+  "python": "3.12.15",
+  "system": "Linux",
+  "machine": "x86_64",
+  "source_revision": "uncommitted",
+  "source_dirty": true,
+  "scope": "Single observations in fixed case order; not a repeated speed comparison."
+}

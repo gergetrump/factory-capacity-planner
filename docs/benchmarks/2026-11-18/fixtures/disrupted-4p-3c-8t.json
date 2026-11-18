@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "name": "Synthetic disrupted 4p-3c-8t seed 2718",
+  "data_origin": "synthetic",
+  "products": [
+    {
+      "id": "P1",
+      "initial_inventory_units": 3
+    },
+    {
+      "id": "P2",
+      "initial_inventory_units": 2
+    },
+    {
+      "id": "P3",
+      "initial_inventory_units": 2
+    },
+    {
+      "id": "P4",
+      "initial_inventory_units": 3
+    }
+  ],
+  "cells": [
+    {
+      "id": "C1",
+      "crew_operators": 1
+    },
+    {
+      "id": "C2",
+      "crew_operators": 1
+    },
+    {
+      "id": "C3",
+      "crew_operators": 2
+    }
+  ],
+  "processing_times": [
+    {
+      "product_id": "P1",
+      "cell_id": "C1",
+      "minutes_per_unit": 3
+    },
+    {
+      "product_id": "P1",
+      "cell_id": "C2",
+      "minutes_per_unit": 8
+    },
+    {
+      "product_id": "P2",
+      "cell_id": "C1",
+      "minutes_per_unit": 9
+    },
+    {
+      "product_id": "P2",
+      "cell_id": "C3",
+      "minutes_per_unit": 4
+    },
+    {
+      "product_id": "P3",
+      "cell_id": "C3",
+      "minutes_per_unit": 9
+    },
+    {
+      "product_id": "P4",
+      "cell_id": "C2",
+      "minutes_per_unit": 9
+    }
+  ],
+  "shifts": [
+    {
+      "id": "T1",
+      "index": 1,
+      "duration_minutes": 120,
+      "available_operators": 2
+    },
+    {
+      "id": "T2",
+      "index": 2,
+      "duration_minutes": 120,
+      "available_operators": 2
+    },
+    {
+      "id": "T3",
+      "index": 3,
+      "duration_minutes": 120,
+      "available_operators": 2
+    },
+    {
+      "id": "T4",
+      "index": 4,
+      "duration_minutes": 120,
+      "available_operators": 1
+    },
+    {
+      "id": "T5",
+      "index": 5,
+      "duration_minutes": 120,
+      "available_operators": 2
+    },
+    {
+      "id": "T6",
+      "index": 6,
+      "duration_minutes": 120,
+      "available_operators": 2
+    },
+    {
+      "id": "T7",
+      "index": 7,
+      "duration_minutes": 120,
+      "available_operators": 2
+    },
+    {
+      "id": "T8",
+      "index": 8,
+      "duration_minutes": 120,
+      "available_operators": 2
+    }
+  ],
+  "capacity": [
+    {
+      "cell_id": "C1",
+      "shift_id": "T1",
+      "available_machine_minutes": 94
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T1",
+      "available_machine_minutes": 90
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T1",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T2",
+      "available_machine_minutes": 91
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T2",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T2",
+      "available_machine_minutes": 106
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T3",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T3",
+      "available_machine_minutes": 100
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T3",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T4",
+      "available_machine_minutes": 108
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T4",
+      "available_machine_minutes": 112
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T4",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T5",
+      "available_machine_minutes": 94
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T5",
+      "available_machine_minutes": 87
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T5",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T6",
+      "available_machine_minutes": 104
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T6",
+      "available_machine_minutes": 90
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T6",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T7",
+      "available_machine_minutes": 87
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T7",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T7",
+      "available_machine_minutes": 86
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T8",
+      "available_machine_minutes": 0
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T8",
+      "available_machine_minutes": 107
+    },
+    {
+      "cell_id": "C3",
+      "shift_id": "T8",
+      "available_machine_minutes": 93
+    }
+  ],
+  "demand": [
+    {
+      "product_id": "P1",
+      "shift_id": "T1",
+      "due_units": 10
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T2",
+      "due_units": 14
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T3",
+      "due_units": 10
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T4",
+      "due_units": 10
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T5",
+      "due_units": 10
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T6",
+      "due_units": 11
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T7",
+      "due_units": 11
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T8",
+      "due_units": 10
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T1",
+      "due_units": 14
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T2",
+      "due_units": 14
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T3",
+      "due_units": 9
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T4",
+      "due_units": 14
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T5",
+      "due_units": 9
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T6",
+      "due_units": 14
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T7",
+      "due_units": 9
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T8",
+      "due_units": 13
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T1",
+      "due_units": 9
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T2",
+      "due_units": 11
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T3",
+      "due_units": 10
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T4",
+      "due_units": 13
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T5",
+      "due_units": 9
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T6",
+      "due_units": 11
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T7",
+      "due_units": 8
+    },
+    {
+      "product_id": "P3",
+      "shift_id": "T8",
+      "due_units": 9
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T1",
+      "due_units": 12
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T2",
+      "due_units": 8
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T3",
+      "due_units": 9
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T4",
+      "due_units": 11
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T5",
+      "due_units": 8
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T6",
+      "due_units": 13
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T7",
+      "due_units": 14
+    },
+    {
+      "product_id": "P4",
+      "shift_id": "T8",
+      "due_units": 9
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "scope": "Fixed educational model; added policy is outside the app schema/checker",
+  "assistance": "Prepared and executed by Codex; George's independent understanding is unverified",
+  "recorded_utc": "2026-11-18T10:49:46.702587+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "system": "Linux",
+    "machine": "x86_64",
+    "gurobi": "14.0.0"
+  },
+  "source_sha256": {
+    "scripts/learning_inventory_limit.py": "89e8f0c21178177c7b4338a90fe9b0a2ca78afb1f762ea36cca3aa4bd7cdc082",
+    "src/capacity_planner/__init__.py": "c253fc880ac6a88fd43f9b10041b727521ea44586f57f11ab407ecba65287625",
+    "src/capacity_planner/api.py": "b2896c33097f15d345e8673edbabb7ef703c19a5a0c9b92ddef9a13cbde35201",
+    "src/capacity_planner/check.py": "22ecc9c9abd2e573cc78e352536af02588bc26d9e32d8b7a6581c7c817ddd6fb",
+    "src/capacity_planner/cli.py": "972cba715fd67fe6da47550bba04e3ea1eb25a044f9e6d1058fc15d029b3fa1a",
+    "src/capacity_planner/examples.py": "10567e76cd2eedb2fe370b329ea02c7b3267e7ea753a9b627381e428494a000b",
+    "src/capacity_planner/greedy.py": "4998bd85a9157b85c2ff2346980b1035fe3c8a4508f763ee2b24342a27908b80",
+    "src/capacity_planner/model.py": "189d8c56c755c4efa752f6427b1da5f8187328735a40910be1bffe1b0c798ec8",
+    "src/capacity_planner/schema.py": "93a3ffdffdf70025b679479b7d2e228d50f8f2478d6780a5a362b3c53c297453",
+    "src/capacity_planner/data/lookahead.json": "894024974952a9874fa89a0910acb75d41cd603e4206a028dafc337c47bc2d59"
+  },
+  "cases": {
+    "storage-allowed": {
+      "result_file": "storage-allowed.json",
+      "raw_variables": {
+        "x[T1]": 1.0,
+        "x[T2]": 0.0,
+        "y[T1]": 1.0,
+        "y[T2]": 0.0,
+        "I[T1]": 1.0,
+        "I[T2]": 0.0,
+        "B[T1]": 0.0,
+        "B[T2]": 0.0,
+        "sign[T1]": 1.0,
+        "sign[T2]": 0.0
+      },
+      "base_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "extra_constraint_validation": {
+        "constraint": "I[T1] == 0",
+        "applied": false,
+        "raw_inventory_T1": 1.0,
+        "reported_inventory_T1": 1,
+        "satisfied": false,
+        "valid_for_applied_policy": true
+      },
+      "predicted_objective": 0
+    },
+    "no-preproduction": {
+      "result_file": "no-preproduction.json",
+      "raw_variables": {
+        "x[T1]": -0.0,
+        "x[T2]": 0.0,
+        "y[T1]": 0.0,
+        "y[T2]": 0.0,
+        "I[T1]": -0.0,
+        "I[T2]": 0.0,
+        "B[T1]": 0.0,
+        "B[T2]": 1.0,
+        "sign[T1]": 1.0,
+        "sign[T2]": 0.0
+      },
+      "base_validation": {
+        "valid": true,
+        "errors": []
+      },
+      "extra_constraint_validation": {
+        "constraint": "I[T1] == 0",
+        "applied": true,
+        "raw_inventory_T1": -0.0,
+        "reported_inventory_T1": 0,
+        "satisfied": true,
+        "valid_for_applied_policy": true
+      },
+      "predicted_objective": 1
+    }
+  }
+}

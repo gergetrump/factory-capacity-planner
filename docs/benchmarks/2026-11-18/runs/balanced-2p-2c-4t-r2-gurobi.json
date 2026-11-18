@@ -1,0 +1,337 @@
+{
+  "benchmark_format_version": 1,
+  "case": "balanced-2p-2c-4t",
+  "fixture": "../fixtures/balanced-2p-2c-4t.json",
+  "measurement": {
+    "case": "balanced-2p-2c-4t",
+    "repeat": 2,
+    "order_position": 1,
+    "method": "gurobi",
+    "status": "optimal",
+    "termination": "OPTIMAL",
+    "checked_feasible": true,
+    "objective": 0,
+    "final_backlog_units": 0,
+    "objective_bound": 0.0,
+    "relative_gap": 0.0,
+    "wall_seconds": 0.0054262615740299225,
+    "solver_seconds": 0.0018301010131835938,
+    "failure_kind": null,
+    "error": null
+  },
+  "result": {
+    "format_version": 1,
+    "algorithm": "gurobi",
+    "status": "optimal",
+    "settings": {
+      "TimeLimit": 2,
+      "MIPGap": 0.0,
+      "MIPGapAbs": 0.0,
+      "Threads": 1,
+      "Seed": 0,
+      "FeasibilityTol": 1e-07,
+      "IntFeasTol": 1e-06
+    },
+    "solver": {
+      "version": "14.0.0",
+      "termination": "OPTIMAL",
+      "termination_code": 2,
+      "raw_objective": 0.0,
+      "objective_bound": 0.0,
+      "relative_gap": 0.0,
+      "solve_runtime_seconds": 0.0018301010131835938
+    },
+    "solution": {
+      "objective": 0,
+      "production": [
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 13
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 1
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "units": 9
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "units": 10
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 3
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "units": 6
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "units": 1
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 6
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 13
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "units": 8
+        }
+      ],
+      "activity": [
+        {
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "active": 0
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "active": 1
+        }
+      ],
+      "stock": [
+        {
+          "product_id": "P1",
+          "shift_id": "T1",
+          "inventory_units": 7,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T2",
+          "inventory_units": 1,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T3",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T4",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T2",
+          "inventory_units": 2,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T3",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T4",
+          "inventory_units": 0,
+          "backlog_units": 0
+        }
+      ],
+      "metrics": {
+        "backlog_unit_shifts": 0,
+        "final_backlog_units": 0,
+        "active_cell_shifts": 7,
+        "inventory_unit_shifts": 10,
+        "produced_units": 70,
+        "machine_minutes_used": 392,
+        "machine_minutes_available": 838,
+        "capacity_utilization": 0.4677804295942721,
+        "cell_usage": [
+          {
+            "cell_id": "C1",
+            "shift_id": "T1",
+            "used_minutes": 15,
+            "available_minutes": 103,
+            "utilization": 0.14563106796116504
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T2",
+            "used_minutes": 0,
+            "available_minutes": 94,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T3",
+            "used_minutes": 30,
+            "available_minutes": 116,
+            "utilization": 0.25862068965517243
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T4",
+            "used_minutes": 5,
+            "available_minutes": 114,
+            "utilization": 0.043859649122807015
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T1",
+            "used_minutes": 93,
+            "available_minutes": 98,
+            "utilization": 0.9489795918367347
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T2",
+            "used_minutes": 120,
+            "available_minutes": 120,
+            "utilization": 1.0
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T3",
+            "used_minutes": 27,
+            "available_minutes": 85,
+            "utilization": 0.3176470588235294
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T4",
+            "used_minutes": 102,
+            "available_minutes": 108,
+            "utilization": 0.9444444444444444
+          }
+        ],
+        "staffing": [
+          {
+            "shift_id": "T1",
+            "reserved_operators": 4,
+            "available_operators": 4,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T2",
+            "reserved_operators": 1,
+            "available_operators": 4,
+            "reservation_share": 0.25
+          },
+          {
+            "shift_id": "T3",
+            "reserved_operators": 4,
+            "available_operators": 4,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T4",
+            "reserved_operators": 4,
+            "available_operators": 4,
+            "reservation_share": 1.0
+          }
+        ]
+      }
+    },
+    "validation": {
+      "valid": true,
+      "errors": []
+    },
+    "error": null
+  }
+}

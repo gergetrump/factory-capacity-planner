@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factory-capacity-planner"
+version = "0.1.0"
+description = "A checked Gurobi capacity-allocation model and local scenario dashboard using synthetic data"
+requires-python = ">=3.12"
+dependencies = ["pydantic==2.14.3", "fastapi==0.163.2", "uvicorn==0.54.0"]
+
+[project.optional-dependencies]
+solver = ["gurobipy==14.0.0"]
+dev = ["pytest==9.2.0", "httpx==0.28.1"]
+
+[project.scripts]
+planner = "capacity_planner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+capacity_planner = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gurobi: requires an installed and usable local Gurobi license"]

@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "name": "Synthetic balanced 2p-2c-4t seed 1729",
+  "data_origin": "synthetic",
+  "products": [
+    {
+      "id": "P1",
+      "initial_inventory_units": 2
+    },
+    {
+      "id": "P2",
+      "initial_inventory_units": 1
+    }
+  ],
+  "cells": [
+    {
+      "id": "C1",
+      "crew_operators": 3
+    },
+    {
+      "id": "C2",
+      "crew_operators": 1
+    }
+  ],
+  "processing_times": [
+    {
+      "product_id": "P1",
+      "cell_id": "C1",
+      "minutes_per_unit": 8
+    },
+    {
+      "product_id": "P1",
+      "cell_id": "C2",
+      "minutes_per_unit": 3
+    },
+    {
+      "product_id": "P2",
+      "cell_id": "C1",
+      "minutes_per_unit": 5
+    },
+    {
+      "product_id": "P2",
+      "cell_id": "C2",
+      "minutes_per_unit": 9
+    }
+  ],
+  "shifts": [
+    {
+      "id": "T1",
+      "index": 1,
+      "duration_minutes": 120,
+      "available_operators": 4
+    },
+    {
+      "id": "T2",
+      "index": 2,
+      "duration_minutes": 120,
+      "available_operators": 4
+    },
+    {
+      "id": "T3",
+      "index": 3,
+      "duration_minutes": 120,
+      "available_operators": 4
+    },
+    {
+      "id": "T4",
+      "index": 4,
+      "duration_minutes": 120,
+      "available_operators": 4
+    }
+  ],
+  "capacity": [
+    {
+      "cell_id": "C1",
+      "shift_id": "T1",
+      "available_machine_minutes": 103
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T1",
+      "available_machine_minutes": 98
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T2",
+      "available_machine_minutes": 94
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T2",
+      "available_machine_minutes": 120
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T3",
+      "available_machine_minutes": 116
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T3",
+      "available_machine_minutes": 85
+    },
+    {
+      "cell_id": "C1",
+      "shift_id": "T4",
+      "available_machine_minutes": 114
+    },
+    {
+      "cell_id": "C2",
+      "shift_id": "T4",
+      "available_machine_minutes": 108
+    }
+  ],
+  "demand": [
+    {
+      "product_id": "P1",
+      "shift_id": "T1",
+      "due_units": 8
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T2",
+      "due_units": 7
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T3",
+      "due_units": 10
+    },
+    {
+      "product_id": "P1",
+      "shift_id": "T4",
+      "due_units": 10
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T1",
+      "due_units": 10
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T2",
+      "due_units": 11
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T3",
+      "due_units": 8
+    },
+    {
+      "product_id": "P2",
+      "shift_id": "T4",
+      "due_units": 9
+    }
+  ]
+}

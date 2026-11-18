@@ -1,0 +1,1172 @@
+{
+  "benchmark_format_version": 1,
+  "case": "disrupted-4p-3c-8t",
+  "fixture": "../fixtures/disrupted-4p-3c-8t.json",
+  "measurement": {
+    "case": "disrupted-4p-3c-8t",
+    "repeat": 3,
+    "order_position": 2,
+    "method": "portfolio",
+    "status": "heuristic_feasible",
+    "termination": null,
+    "checked_feasible": true,
+    "objective": 773,
+    "final_backlog_units": 171,
+    "objective_bound": null,
+    "relative_gap": null,
+    "wall_seconds": 0.01368662342429161,
+    "solver_seconds": null,
+    "failure_kind": null,
+    "error": null
+  },
+  "result": {
+    "status": "heuristic_feasible",
+    "solution": {
+      "objective": 773,
+      "production": [
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 1
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 21
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "units": 12
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T5",
+          "units": 1
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T6",
+          "units": 19
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C1",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 1
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "units": 8
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C2",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P1",
+          "cell_id": "C3",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 10
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 3
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "units": 8
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T5",
+          "units": 10
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T6",
+          "units": 5
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C1",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C2",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T7",
+          "units": 21
+        },
+        {
+          "product_id": "P2",
+          "cell_id": "C3",
+          "shift_id": "T8",
+          "units": 23
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C1",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C2",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P3",
+          "cell_id": "C3",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C1",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 9
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "units": 4
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T5",
+          "units": 9
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C2",
+          "shift_id": "T8",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T3",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T4",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T5",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T6",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T7",
+          "units": 0
+        },
+        {
+          "product_id": "P4",
+          "cell_id": "C3",
+          "shift_id": "T8",
+          "units": 0
+        }
+      ],
+      "activity": [
+        {
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T3",
+          "active": 0
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T4",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T5",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T6",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T7",
+          "active": 0
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T8",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T3",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T4",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T5",
+          "active": 1
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T6",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T7",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T8",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T1",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T2",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T3",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T4",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T5",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T6",
+          "active": 0
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T7",
+          "active": 1
+        },
+        {
+          "cell_id": "C3",
+          "shift_id": "T8",
+          "active": 1
+        }
+      ],
+      "stock": [
+        {
+          "product_id": "P1",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 5
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T2",
+          "inventory_units": 2,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T3",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T4",
+          "inventory_units": 2,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T5",
+          "inventory_units": 0,
+          "backlog_units": 7
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T6",
+          "inventory_units": 1,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T7",
+          "inventory_units": 0,
+          "backlog_units": 10
+        },
+        {
+          "product_id": "P1",
+          "shift_id": "T8",
+          "inventory_units": 0,
+          "backlog_units": 20
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 2
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T2",
+          "inventory_units": 0,
+          "backlog_units": 13
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T3",
+          "inventory_units": 0,
+          "backlog_units": 22
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T4",
+          "inventory_units": 0,
+          "backlog_units": 28
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T5",
+          "inventory_units": 0,
+          "backlog_units": 27
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T6",
+          "inventory_units": 0,
+          "backlog_units": 36
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T7",
+          "inventory_units": 0,
+          "backlog_units": 24
+        },
+        {
+          "product_id": "P2",
+          "shift_id": "T8",
+          "inventory_units": 0,
+          "backlog_units": 14
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 7
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T2",
+          "inventory_units": 0,
+          "backlog_units": 18
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T3",
+          "inventory_units": 0,
+          "backlog_units": 28
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T4",
+          "inventory_units": 0,
+          "backlog_units": 41
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T5",
+          "inventory_units": 0,
+          "backlog_units": 50
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T6",
+          "inventory_units": 0,
+          "backlog_units": 61
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T7",
+          "inventory_units": 0,
+          "backlog_units": 69
+        },
+        {
+          "product_id": "P3",
+          "shift_id": "T8",
+          "inventory_units": 0,
+          "backlog_units": 78
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T2",
+          "inventory_units": 0,
+          "backlog_units": 8
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T3",
+          "inventory_units": 0,
+          "backlog_units": 13
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T4",
+          "inventory_units": 0,
+          "backlog_units": 24
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T5",
+          "inventory_units": 0,
+          "backlog_units": 23
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T6",
+          "inventory_units": 0,
+          "backlog_units": 36
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T7",
+          "inventory_units": 0,
+          "backlog_units": 50
+        },
+        {
+          "product_id": "P4",
+          "shift_id": "T8",
+          "inventory_units": 0,
+          "backlog_units": 59
+        }
+      ],
+      "metrics": {
+        "backlog_unit_shifts": 773,
+        "final_backlog_units": 171,
+        "active_cell_shifts": 10,
+        "inventory_unit_shifts": 5,
+        "produced_units": 165,
+        "machine_minutes_used": 932,
+        "machine_minutes_available": 1449,
+        "capacity_utilization": 0.6432022084195997,
+        "cell_usage": [
+          {
+            "cell_id": "C1",
+            "shift_id": "T1",
+            "used_minutes": 93,
+            "available_minutes": 94,
+            "utilization": 0.9893617021276596
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T2",
+            "used_minutes": 90,
+            "available_minutes": 91,
+            "utilization": 0.989010989010989
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T3",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T4",
+            "used_minutes": 108,
+            "available_minutes": 108,
+            "utilization": 1.0
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T5",
+            "used_minutes": 93,
+            "available_minutes": 94,
+            "utilization": 0.9893617021276596
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T6",
+            "used_minutes": 102,
+            "available_minutes": 104,
+            "utilization": 0.9807692307692307
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T7",
+            "used_minutes": 0,
+            "available_minutes": 87,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T8",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T1",
+            "used_minutes": 89,
+            "available_minutes": 90,
+            "utilization": 0.9888888888888889
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T2",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T3",
+            "used_minutes": 100,
+            "available_minutes": 100,
+            "utilization": 1.0
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T4",
+            "used_minutes": 0,
+            "available_minutes": 112,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T5",
+            "used_minutes": 81,
+            "available_minutes": 87,
+            "utilization": 0.9310344827586207
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T6",
+            "used_minutes": 0,
+            "available_minutes": 90,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T7",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T8",
+            "used_minutes": 0,
+            "available_minutes": 107,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T1",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T2",
+            "used_minutes": 0,
+            "available_minutes": 106,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T3",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T4",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T5",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T6",
+            "used_minutes": 0,
+            "available_minutes": 0,
+            "utilization": null
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T7",
+            "used_minutes": 84,
+            "available_minutes": 86,
+            "utilization": 0.9767441860465116
+          },
+          {
+            "cell_id": "C3",
+            "shift_id": "T8",
+            "used_minutes": 92,
+            "available_minutes": 93,
+            "utilization": 0.989247311827957
+          }
+        ],
+        "staffing": [
+          {
+            "shift_id": "T1",
+            "reserved_operators": 2,
+            "available_operators": 2,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T2",
+            "reserved_operators": 1,
+            "available_operators": 2,
+            "reservation_share": 0.5
+          },
+          {
+            "shift_id": "T3",
+            "reserved_operators": 1,
+            "available_operators": 2,
+            "reservation_share": 0.5
+          },
+          {
+            "shift_id": "T4",
+            "reserved_operators": 1,
+            "available_operators": 1,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T5",
+            "reserved_operators": 2,
+            "available_operators": 2,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T6",
+            "reserved_operators": 1,
+            "available_operators": 2,
+            "reservation_share": 0.5
+          },
+          {
+            "shift_id": "T7",
+            "reserved_operators": 2,
+            "available_operators": 2,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T8",
+            "reserved_operators": 2,
+            "available_operators": 2,
+            "reservation_share": 1.0
+          }
+        ]
+      }
+    },
+    "validation": {
+      "valid": true,
+      "errors": []
+    },
+    "solver": null,
+    "settings": {},
+    "error": null,
+    "diagnostics": {
+      "selected_policy": "window_2_scarcity",
+      "candidate_count": 7,
+      "candidate_objectives": {
+        "original_greedy": 869,
+        "window_1_urgency": 792,
+        "window_1_scarcity": 792,
+        "window_2_urgency": 773,
+        "window_2_scarcity": 773,
+        "window_8_urgency": 773,
+        "window_8_scarcity": 773
+      }
+    }
+  }
+}

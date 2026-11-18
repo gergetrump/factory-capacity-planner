@@ -1,0 +1,938 @@
+[
+  {
+    "case": "base",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.01358671486377716,
+      "median": 0.014096122235059738,
+      "max": 0.014852423220872879
+    },
+    "solver_seconds": {
+      "min": 0.003928184509277344,
+      "median": 0.004213094711303711,
+      "max": 0.004456996917724609
+    }
+  },
+  {
+    "case": "base",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 51,
+    "objective_max": 51,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 51.0,
+    "wall_seconds": {
+      "min": 0.002464108169078827,
+      "median": 0.0025772452354431152,
+      "max": 0.002604283392429352
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "base",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.026254922151565552,
+      "median": 0.027322061359882355,
+      "max": 0.02784230187535286
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "short_outage",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.014422863721847534,
+      "median": 0.014476757496595383,
+      "max": 0.015155117958784103
+    },
+    "solver_seconds": {
+      "min": 0.004030942916870117,
+      "median": 0.004088878631591797,
+      "max": 0.0046901702880859375
+    }
+  },
+  {
+    "case": "short_outage",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 128,
+    "objective_max": 128,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 128.0,
+    "wall_seconds": {
+      "min": 0.0023995190858840942,
+      "median": 0.002467561513185501,
+      "max": 0.002752445638179779
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "short_outage",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 10,
+    "objective_max": 10,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 10.0,
+    "wall_seconds": {
+      "min": 0.024887144565582275,
+      "median": 0.02528972178697586,
+      "max": 0.03269858658313751
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "full_outage",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 550,
+    "objective_max": 550,
+    "best_checked_objective_all_methods": 550,
+    "best_gurobi_lower_bound": 550.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.013382643461227417,
+      "median": 0.014331422746181488,
+      "max": 0.015658531337976456
+    },
+    "solver_seconds": {
+      "min": 0.002955913543701172,
+      "median": 0.0029900074005126953,
+      "max": 0.004520893096923828
+    }
+  },
+  {
+    "case": "full_outage",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 550,
+    "objective_max": 550,
+    "best_checked_objective_all_methods": 550,
+    "best_gurobi_lower_bound": 550.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.002580493688583374,
+      "median": 0.0028587952256202698,
+      "max": 0.0029774196445941925
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "full_outage",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 550,
+    "objective_max": 550,
+    "best_checked_objective_all_methods": 550,
+    "best_gurobi_lower_bound": 550.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.019279465079307556,
+      "median": 0.019884254783391953,
+      "max": 0.020973369479179382
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "lookahead",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.0019647926092147827,
+      "median": 0.001978352665901184,
+      "max": 0.002352651208639145
+    },
+    "solver_seconds": {
+      "min": 0.00015997886657714844,
+      "median": 0.00017189979553222656,
+      "max": 0.00019097328186035156
+    }
+  },
+  {
+    "case": "lookahead",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 1,
+    "objective_max": 1,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 1.0,
+    "wall_seconds": {
+      "min": 0.00026990845799446106,
+      "median": 0.00027046725153923035,
+      "max": 0.0003231242299079895
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "lookahead",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.0009176731109619141,
+      "median": 0.0009271986782550812,
+      "max": 0.0010780692100524902
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "tiny",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.0027635693550109863,
+      "median": 0.002859611064195633,
+      "max": 0.0028934478759765625
+    },
+    "solver_seconds": {
+      "min": 0.0004658699035644531,
+      "median": 0.0005130767822265625,
+      "max": 0.0005209445953369141
+    }
+  },
+  {
+    "case": "tiny",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.00039865821599960327,
+      "median": 0.0004204586148262024,
+      "max": 0.0004956163465976715
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "tiny",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.001552283763885498,
+      "median": 0.0016475915908813477,
+      "max": 0.0018314607441425323
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-2p-2c-4t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.004963584244251251,
+      "median": 0.0054262615740299225,
+      "max": 0.014592304825782776
+    },
+    "solver_seconds": {
+      "min": 0.0017189979553222656,
+      "median": 0.0018301010131835938,
+      "max": 0.011181116104125977
+    }
+  },
+  {
+    "case": "balanced-2p-2c-4t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.0006457902491092682,
+      "median": 0.0006874240934848785,
+      "max": 0.0008062608540058136
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-2p-2c-4t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.004282914102077484,
+      "median": 0.0043723322451114655,
+      "max": 0.004812978208065033
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-2p-2c-4t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 90,
+    "objective_max": 90,
+    "best_checked_objective_all_methods": 90,
+    "best_gurobi_lower_bound": 90.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.004890371114015579,
+      "median": 0.004929874092340469,
+      "max": 0.004956472665071487
+    },
+    "solver_seconds": {
+      "min": 0.0012998580932617188,
+      "median": 0.0014100074768066406,
+      "max": 0.0014259815216064453
+    }
+  },
+  {
+    "case": "disrupted-2p-2c-4t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 112,
+    "objective_max": 112,
+    "best_checked_objective_all_methods": 90,
+    "best_gurobi_lower_bound": 90.0,
+    "best_absolute_gap_to_bound": 22.0,
+    "wall_seconds": {
+      "min": 0.0006272159516811371,
+      "median": 0.0006486698985099792,
+      "max": 0.0008288249373435974
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-2p-2c-4t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 92,
+    "objective_max": 92,
+    "best_checked_objective_all_methods": 90,
+    "best_gurobi_lower_bound": 90.0,
+    "best_absolute_gap_to_bound": 2.0,
+    "wall_seconds": {
+      "min": 0.0038094110786914825,
+      "median": 0.003972340375185013,
+      "max": 0.004218153655529022
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-4p-3c-8t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.012356646358966827,
+      "median": 0.013192832469940186,
+      "max": 0.013695035129785538
+    },
+    "solver_seconds": {
+      "min": 0.003429889678955078,
+      "median": 0.0037479400634765625,
+      "max": 0.003899097442626953
+    }
+  },
+  {
+    "case": "balanced-4p-3c-8t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.002264149487018585,
+      "median": 0.0023983418941497803,
+      "max": 0.0026172325015068054
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-4p-3c-8t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.023545190691947937,
+      "median": 0.02391260489821434,
+      "max": 0.03582339361310005
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-4p-3c-8t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 594,
+    "objective_max": 594,
+    "best_checked_objective_all_methods": 594,
+    "best_gurobi_lower_bound": 594.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.020200863480567932,
+      "median": 0.020964734256267548,
+      "max": 0.03407216817140579
+    },
+    "solver_seconds": {
+      "min": 0.012279987335205078,
+      "median": 0.012512922286987305,
+      "max": 0.025369882583618164
+    }
+  },
+  {
+    "case": "disrupted-4p-3c-8t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 869,
+    "objective_max": 869,
+    "best_checked_objective_all_methods": 594,
+    "best_gurobi_lower_bound": 594.0,
+    "best_absolute_gap_to_bound": 275.0,
+    "wall_seconds": {
+      "min": 0.0020849741995334625,
+      "median": 0.002169661223888397,
+      "max": 0.002336900681257248
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-4p-3c-8t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 773,
+    "objective_max": 773,
+    "best_checked_objective_all_methods": 594,
+    "best_gurobi_lower_bound": 594.0,
+    "best_absolute_gap_to_bound": 179.0,
+    "wall_seconds": {
+      "min": 0.013561006635427475,
+      "median": 0.01368662342429161,
+      "max": 0.014967035502195358
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-6p-4c-12t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.027266185730695724,
+      "median": 0.027426090091466904,
+      "max": 0.028520863503217697
+    },
+    "solver_seconds": {
+      "min": 0.009190082550048828,
+      "median": 0.009304046630859375,
+      "max": 0.00977015495300293
+    }
+  },
+  {
+    "case": "balanced-6p-4c-12t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.004723705351352692,
+      "median": 0.004814706742763519,
+      "max": 0.004910286515951157
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-6p-4c-12t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.1162978857755661,
+      "median": 0.12501171231269836,
+      "max": 0.13314537703990936
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-6p-4c-12t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "feasible": 3
+    },
+    "terminations": {
+      "TIME_LIMIT": 3
+    },
+    "failures": {},
+    "objective_min": 702,
+    "objective_max": 702,
+    "best_checked_objective_all_methods": 702,
+    "best_gurobi_lower_bound": 699.0,
+    "best_absolute_gap_to_bound": 3.0,
+    "wall_seconds": {
+      "min": 2.018897484987974,
+      "median": 2.0196802243590355,
+      "max": 2.0287875570356846
+    },
+    "solver_seconds": {
+      "min": 2.000089168548584,
+      "median": 2.000092029571533,
+      "max": 2.0001699924468994
+    }
+  },
+  {
+    "case": "disrupted-6p-4c-12t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 1611,
+    "objective_max": 1611,
+    "best_checked_objective_all_methods": 702,
+    "best_gurobi_lower_bound": 699.0,
+    "best_absolute_gap_to_bound": 912.0,
+    "wall_seconds": {
+      "min": 0.004493389278650284,
+      "median": 0.004706591367721558,
+      "max": 0.005175836384296417
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-6p-4c-12t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 1121,
+    "objective_max": 1121,
+    "best_checked_objective_all_methods": 702,
+    "best_gurobi_lower_bound": 699.0,
+    "best_absolute_gap_to_bound": 422.0,
+    "wall_seconds": {
+      "min": 0.04624252766370773,
+      "median": 0.0465286523103714,
+      "max": 0.048199281096458435
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-8p-6c-20t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "optimal": 3
+    },
+    "terminations": {
+      "OPTIMAL": 3
+    },
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.09090607985854149,
+      "median": 0.09653575718402863,
+      "max": 0.09703566506505013
+    },
+    "solver_seconds": {
+      "min": 0.038136959075927734,
+      "median": 0.0386660099029541,
+      "max": 0.04048299789428711
+    }
+  },
+  {
+    "case": "balanced-8p-6c-20t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 0.0129784494638443,
+      "median": 0.014298845082521439,
+      "max": 0.016182877123355865
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "balanced-8p-6c-20t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 0,
+    "objective_max": 0,
+    "best_checked_objective_all_methods": 0,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 0.0,
+    "wall_seconds": {
+      "min": 2.0516445115208626,
+      "median": 2.0675970911979675,
+      "max": 2.083781372755766
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-8p-6c-20t",
+    "method": "gurobi",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "feasible": 3
+    },
+    "terminations": {
+      "TIME_LIMIT": 3
+    },
+    "failures": {},
+    "objective_min": 13,
+    "objective_max": 13,
+    "best_checked_objective_all_methods": 13,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 13.0,
+    "wall_seconds": {
+      "min": 2.055591434240341,
+      "median": 2.0560335628688335,
+      "max": 2.056917082518339
+    },
+    "solver_seconds": {
+      "min": 2.000335931777954,
+      "median": 2.000335931777954,
+      "max": 2.0004570484161377
+    }
+  },
+  {
+    "case": "disrupted-8p-6c-20t",
+    "method": "greedy",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 3064,
+    "objective_max": 3064,
+    "best_checked_objective_all_methods": 13,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 3064.0,
+    "wall_seconds": {
+      "min": 0.012455258518457413,
+      "median": 0.01267487183213234,
+      "max": 0.012692760676145554
+    },
+    "solver_seconds": null
+  },
+  {
+    "case": "disrupted-8p-6c-20t",
+    "method": "portfolio",
+    "runs": 3,
+    "feasible_runs": 3,
+    "statuses": {
+      "heuristic_feasible": 3
+    },
+    "terminations": {},
+    "failures": {},
+    "objective_min": 573,
+    "objective_max": 573,
+    "best_checked_objective_all_methods": 13,
+    "best_gurobi_lower_bound": 0.0,
+    "best_absolute_gap_to_bound": 573.0,
+    "wall_seconds": {
+      "min": 0.5132287740707397,
+      "median": 0.5241756699979305,
+      "max": 0.5266642533242702
+    },
+    "solver_seconds": null
+  }
+]

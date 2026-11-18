@@ -1,0 +1,198 @@
+{
+  "benchmark_format_version": 1,
+  "case": "tiny",
+  "fixture": "../fixtures/tiny.json",
+  "measurement": {
+    "case": "tiny",
+    "repeat": 1,
+    "order_position": 2,
+    "method": "portfolio",
+    "status": "heuristic_feasible",
+    "termination": null,
+    "checked_feasible": true,
+    "objective": 0,
+    "final_backlog_units": 0,
+    "objective_bound": null,
+    "relative_gap": null,
+    "wall_seconds": 0.0016475915908813477,
+    "solver_seconds": null,
+    "failure_kind": null,
+    "error": null
+  },
+  "result": {
+    "status": "heuristic_feasible",
+    "solution": {
+      "objective": 0,
+      "production": [
+        {
+          "product_id": "A",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 2
+        },
+        {
+          "product_id": "A",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "A",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "A",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "B",
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "B",
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "units": 0
+        },
+        {
+          "product_id": "B",
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "units": 0
+        },
+        {
+          "product_id": "B",
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "units": 2
+        }
+      ],
+      "activity": [
+        {
+          "cell_id": "C1",
+          "shift_id": "T1",
+          "active": 1
+        },
+        {
+          "cell_id": "C1",
+          "shift_id": "T2",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T1",
+          "active": 0
+        },
+        {
+          "cell_id": "C2",
+          "shift_id": "T2",
+          "active": 1
+        }
+      ],
+      "stock": [
+        {
+          "product_id": "A",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "A",
+          "shift_id": "T2",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "B",
+          "shift_id": "T1",
+          "inventory_units": 0,
+          "backlog_units": 0
+        },
+        {
+          "product_id": "B",
+          "shift_id": "T2",
+          "inventory_units": 0,
+          "backlog_units": 0
+        }
+      ],
+      "metrics": {
+        "backlog_unit_shifts": 0,
+        "final_backlog_units": 0,
+        "active_cell_shifts": 2,
+        "inventory_unit_shifts": 0,
+        "produced_units": 4,
+        "machine_minutes_used": 4,
+        "machine_minutes_available": 8,
+        "capacity_utilization": 0.5,
+        "cell_usage": [
+          {
+            "cell_id": "C1",
+            "shift_id": "T1",
+            "used_minutes": 2,
+            "available_minutes": 2,
+            "utilization": 1.0
+          },
+          {
+            "cell_id": "C1",
+            "shift_id": "T2",
+            "used_minutes": 0,
+            "available_minutes": 2,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T1",
+            "used_minutes": 0,
+            "available_minutes": 2,
+            "utilization": 0.0
+          },
+          {
+            "cell_id": "C2",
+            "shift_id": "T2",
+            "used_minutes": 2,
+            "available_minutes": 2,
+            "utilization": 1.0
+          }
+        ],
+        "staffing": [
+          {
+            "shift_id": "T1",
+            "reserved_operators": 1,
+            "available_operators": 1,
+            "reservation_share": 1.0
+          },
+          {
+            "shift_id": "T2",
+            "reserved_operators": 1,
+            "available_operators": 1,
+            "reservation_share": 1.0
+          }
+        ]
+      }
+    },
+    "validation": {
+      "valid": true,
+      "errors": []
+    },
+    "solver": null,
+    "settings": {},
+    "error": null,
+    "diagnostics": {
+      "selected_policy": "original_greedy",
+      "candidate_count": 5,
+      "candidate_objectives": {
+        "original_greedy": 0,
+        "window_1_urgency": 0,
+        "window_1_scarcity": 0,
+        "window_2_urgency": 0,
+        "window_2_scarcity": 0
+      }
+    }
+  }
+}

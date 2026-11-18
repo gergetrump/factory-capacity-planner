@@ -1,0 +1,56 @@
+{
+  "scope": "One fresh reproduction of the existing synthetic lookahead experiment; no timing comparison",
+  "assistance": "Prepared and executed by Codex; not evidence of George independently reproducing the result",
+  "recorded_utc": "2026-11-18T10:47:41.878327+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "system": "Linux",
+    "machine": "x86_64"
+  },
+  "source_sha256": {
+    "src/capacity_planner/__init__.py": "c253fc880ac6a88fd43f9b10041b727521ea44586f57f11ab407ecba65287625",
+    "src/capacity_planner/api.py": "b2896c33097f15d345e8673edbabb7ef703c19a5a0c9b92ddef9a13cbde35201",
+    "src/capacity_planner/check.py": "22ecc9c9abd2e573cc78e352536af02588bc26d9e32d8b7a6581c7c817ddd6fb",
+    "src/capacity_planner/cli.py": "972cba715fd67fe6da47550bba04e3ea1eb25a044f9e6d1058fc15d029b3fa1a",
+    "src/capacity_planner/examples.py": "10567e76cd2eedb2fe370b329ea02c7b3267e7ea753a9b627381e428494a000b",
+    "src/capacity_planner/greedy.py": "4998bd85a9157b85c2ff2346980b1035fe3c8a4508f763ee2b24342a27908b80",
+    "src/capacity_planner/model.py": "189d8c56c755c4efa752f6427b1da5f8187328735a40910be1bffe1b0c798ec8",
+    "src/capacity_planner/schema.py": "93a3ffdffdf70025b679479b7d2e228d50f8f2478d6780a5a362b3c53c297453"
+  },
+  "results": [
+    {
+      "algorithm": "gurobi",
+      "predicted_objective": 0,
+      "observed_objective": 0,
+      "status": "optimal",
+      "final_backlog_units": 0,
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "input_matches_export": true,
+      "solver": {
+        "version": "14.0.0",
+        "termination": "OPTIMAL",
+        "termination_code": 2,
+        "raw_objective": 0.0,
+        "objective_bound": 0.0,
+        "relative_gap": 0.0,
+        "solve_runtime_seconds": 0.0005838871002197266
+      }
+    },
+    {
+      "algorithm": "greedy",
+      "predicted_objective": 1,
+      "observed_objective": 1,
+      "status": "heuristic_feasible",
+      "final_backlog_units": 1,
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "input_matches_export": true,
+      "solver": null
+    }
+  ]
+}

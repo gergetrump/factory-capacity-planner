@@ -1,0 +1,112 @@
+[
+  {
+    "scenario": "base",
+    "algorithm": "gurobi",
+    "status": "optimal",
+    "backlog_unit_shifts": 0,
+    "final_backlog_units": 0,
+    "inventory_unit_shifts": 463,
+    "active_cell_shifts": 19,
+    "observed_wall_seconds": 0.029111,
+    "solver_seconds": 0.005043983459472656
+  },
+  {
+    "scenario": "base",
+    "algorithm": "greedy",
+    "status": "heuristic_feasible",
+    "backlog_unit_shifts": 51,
+    "final_backlog_units": 3,
+    "inventory_unit_shifts": 0,
+    "active_cell_shifts": 20,
+    "observed_wall_seconds": 0.002439,
+    "solver_seconds": null
+  },
+  {
+    "scenario": "short_outage",
+    "algorithm": "gurobi",
+    "status": "optimal",
+    "backlog_unit_shifts": 0,
+    "final_backlog_units": 0,
+    "inventory_unit_shifts": 402,
+    "active_cell_shifts": 18,
+    "observed_wall_seconds": 0.01937,
+    "solver_seconds": 0.005685091018676758
+  },
+  {
+    "scenario": "short_outage",
+    "algorithm": "greedy",
+    "status": "heuristic_feasible",
+    "backlog_unit_shifts": 128,
+    "final_backlog_units": 20,
+    "inventory_unit_shifts": 0,
+    "active_cell_shifts": 20,
+    "observed_wall_seconds": 0.002504,
+    "solver_seconds": null
+  },
+  {
+    "scenario": "full_outage",
+    "algorithm": "gurobi",
+    "status": "optimal",
+    "backlog_unit_shifts": 550,
+    "final_backlog_units": 100,
+    "inventory_unit_shifts": 376,
+    "active_cell_shifts": 15,
+    "observed_wall_seconds": 0.012217,
+    "solver_seconds": 0.002752065658569336
+  },
+  {
+    "scenario": "full_outage",
+    "algorithm": "greedy",
+    "status": "heuristic_feasible",
+    "backlog_unit_shifts": 550,
+    "final_backlog_units": 100,
+    "inventory_unit_shifts": 0,
+    "active_cell_shifts": 20,
+    "observed_wall_seconds": 0.002435,
+    "solver_seconds": null
+  },
+  {
+    "scenario": "lookahead",
+    "algorithm": "gurobi",
+    "status": "optimal",
+    "backlog_unit_shifts": 0,
+    "final_backlog_units": 0,
+    "inventory_unit_shifts": 1,
+    "active_cell_shifts": 1,
+    "observed_wall_seconds": 0.001976,
+    "solver_seconds": 0.00016188621520996094
+  },
+  {
+    "scenario": "lookahead",
+    "algorithm": "greedy",
+    "status": "heuristic_feasible",
+    "backlog_unit_shifts": 1,
+    "final_backlog_units": 1,
+    "inventory_unit_shifts": 0,
+    "active_cell_shifts": 0,
+    "observed_wall_seconds": 0.000311,
+    "solver_seconds": null
+  },
+  {
+    "scenario": "tiny",
+    "algorithm": "gurobi",
+    "status": "optimal",
+    "backlog_unit_shifts": 0,
+    "final_backlog_units": 0,
+    "inventory_unit_shifts": 0,
+    "active_cell_shifts": 2,
+    "observed_wall_seconds": 0.002556,
+    "solver_seconds": 0.0004658699035644531
+  },
+  {
+    "scenario": "tiny",
+    "algorithm": "greedy",
+    "status": "heuristic_feasible",
+    "backlog_unit_shifts": 0,
+    "final_backlog_units": 0,
+    "inventory_unit_shifts": 0,
+    "active_cell_shifts": 2,
+    "observed_wall_seconds": 0.000479,
+    "solver_seconds": null
+  }
+]

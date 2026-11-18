@@ -1,0 +1,230 @@
+{
+  "suite_version": 1,
+  "started_utc": "2026-11-18T11:43:59.370741+00:00",
+  "finished_utc": "2026-11-18T11:44:21.659448+00:00",
+  "python": "3.12.15",
+  "platform": "Linux-7.0.0-15-generic-x86_64-with-glibc2.43",
+  "machine": "x86_64",
+  "cpu": "Intel(R) Core(TM) i5-6500T CPU @ 2.50GHz",
+  "logical_cpu_count": 4,
+  "load_average_start": [
+    1.17236328125,
+    0.5830078125,
+    0.4580078125
+  ],
+  "load_average_end": [
+    1.27734375,
+    0.6435546875,
+    0.48046875
+  ],
+  "packages": {
+    "gurobipy": "14.0.0",
+    "pydantic": "2.14.3",
+    "fastapi": "0.163.2",
+    "pytest": "9.2.0"
+  },
+  "source_revision": "uncommitted",
+  "source_dirty": true,
+  "source_sha256": {
+    "benchmarks/__init__.py": "36efff321722a9ccd8d796513691d9e54b559895f0ca72faed1726b709209197",
+    "benchmarks/heuristic.py": "5ccbae53f87c6f09cf9e0c204984539876aa508fa6d08fa9507f3399c32c1f72",
+    "benchmarks/suite.py": "138f2603d74bbafac088be415fbc6e7bb27b3ff5a6679d65a38ddad0bb33587c",
+    "pyproject.toml": "e34c3c3339c38ff18cd1edf50fe32c4b1606e43b989a4784f788bbb08d8ff7be",
+    "requirements.lock": "af91ebebff5846985776f280db095e2cd8510fdbefb890b7f34e220b32a603fb",
+    "scripts/learning_inventory_limit.py": "89e8f0c21178177c7b4338a90fe9b0a2ca78afb1f762ea36cca3aa4bd7cdc082",
+    "scripts/record_results.py": "d4f6649053caa514e48629d6d5ab80dd3b69eb741c42da6211e3144dba3b2cda",
+    "scripts/run_benchmarks.py": "742a2749bf1f62f484fc1a87eb7d09656dd4b9119c6130d7365436dbfc8e8934",
+    "src/capacity_planner/__init__.py": "c253fc880ac6a88fd43f9b10041b727521ea44586f57f11ab407ecba65287625",
+    "src/capacity_planner/api.py": "b2896c33097f15d345e8673edbabb7ef703c19a5a0c9b92ddef9a13cbde35201",
+    "src/capacity_planner/check.py": "22ecc9c9abd2e573cc78e352536af02588bc26d9e32d8b7a6581c7c817ddd6fb",
+    "src/capacity_planner/cli.py": "972cba715fd67fe6da47550bba04e3ea1eb25a044f9e6d1058fc15d029b3fa1a",
+    "src/capacity_planner/examples.py": "10567e76cd2eedb2fe370b329ea02c7b3267e7ea753a9b627381e428494a000b",
+    "src/capacity_planner/greedy.py": "4998bd85a9157b85c2ff2346980b1035fe3c8a4508f763ee2b24342a27908b80",
+    "src/capacity_planner/model.py": "189d8c56c755c4efa752f6427b1da5f8187328735a40910be1bffe1b0c798ec8",
+    "src/capacity_planner/schema.py": "93a3ffdffdf70025b679479b7d2e228d50f8f2478d6780a5a362b3c53c297453",
+    "tests/test_api.py": "511b878c5c2d867120ef844cdf764a47bcbec5f3a3e04f87dc15ac81b769d462",
+    "tests/test_benchmarks.py": "92bf9c1f081dc42fabdfb13e2312b5ad1109002ac636eca179650779002cff8a",
+    "tests/test_core.py": "ecdc55d22f7fadc0181df51fc233bd5e2c4c1ca17083dda3d411e85e3d0c54ee"
+  },
+  "repeats": 3,
+  "case_ids": [
+    "base",
+    "short_outage",
+    "full_outage",
+    "lookahead",
+    "tiny",
+    "balanced-2p-2c-4t",
+    "disrupted-2p-2c-4t",
+    "balanced-4p-3c-8t",
+    "disrupted-4p-3c-8t",
+    "balanced-6p-4c-12t",
+    "disrupted-6p-4c-12t",
+    "balanced-8p-6c-20t",
+    "disrupted-8p-6c-20t"
+  ],
+  "inputs": [
+    {
+      "case": "base",
+      "sha256": "9902309af1f00dcdc87cd7aca51cada8a1c2a744b42536de5d93ed916b74c942",
+      "products": 4,
+      "cells": 3,
+      "shifts": 10,
+      "eligible_pairs": 7,
+      "variables": 220,
+      "constraints": 264
+    },
+    {
+      "case": "short_outage",
+      "sha256": "c8c5719658de47f745d4d5a69d4a9d8e7e52ff032736308c81e6f3deea619be3",
+      "products": 4,
+      "cells": 3,
+      "shifts": 10,
+      "eligible_pairs": 7,
+      "variables": 220,
+      "constraints": 264
+    },
+    {
+      "case": "full_outage",
+      "sha256": "92a9b9a4d8542205af3b5df480e18ef953482ad66d1289fb337bba53db351bc4",
+      "products": 4,
+      "cells": 3,
+      "shifts": 10,
+      "eligible_pairs": 7,
+      "variables": 220,
+      "constraints": 264
+    },
+    {
+      "case": "lookahead",
+      "sha256": "894024974952a9874fa89a0910acb75d41cd603e4206a028dafc337c47bc2d59",
+      "products": 1,
+      "cells": 1,
+      "shifts": 2,
+      "eligible_pairs": 1,
+      "variables": 10,
+      "constraints": 15
+    },
+    {
+      "case": "tiny",
+      "sha256": "87deabc0facc068df39ac0588b9a633613dbebc8a3777763a78f654998dcb915",
+      "products": 2,
+      "cells": 2,
+      "shifts": 2,
+      "eligible_pairs": 2,
+      "variables": 20,
+      "constraints": 28
+    },
+    {
+      "case": "balanced-2p-2c-4t",
+      "sha256": "0bbad3e9b02873ba746203cc6ab8b2466cdabef6db7f63cb72063bc080025e22",
+      "products": 2,
+      "cells": 2,
+      "shifts": 4,
+      "eligible_pairs": 4,
+      "variables": 48,
+      "constraints": 62
+    },
+    {
+      "case": "disrupted-2p-2c-4t",
+      "sha256": "2d71f244605a7e67548e6cbecea09ab357f688572a031cd3889853653d2f421e",
+      "products": 2,
+      "cells": 2,
+      "shifts": 4,
+      "eligible_pairs": 4,
+      "variables": 48,
+      "constraints": 62
+    },
+    {
+      "case": "balanced-4p-3c-8t",
+      "sha256": "78db3703a132c1eed5c0b8851aa129077565625b771d9b3979986c29f6417ab3",
+      "products": 4,
+      "cells": 3,
+      "shifts": 8,
+      "eligible_pairs": 8,
+      "variables": 184,
+      "constraints": 220
+    },
+    {
+      "case": "disrupted-4p-3c-8t",
+      "sha256": "91bed5f6b2f54f58e0fd8b85d765692d9082e19bbea9e51e1ecc7d6a2959adc2",
+      "products": 4,
+      "cells": 3,
+      "shifts": 8,
+      "eligible_pairs": 6,
+      "variables": 168,
+      "constraints": 204
+    },
+    {
+      "case": "balanced-6p-4c-12t",
+      "sha256": "6f7312b67965027d867ac762ab46538c053efd5eb264d8312b5c4e5f81f6afda",
+      "products": 6,
+      "cells": 4,
+      "shifts": 12,
+      "eligible_pairs": 16,
+      "variables": 456,
+      "constraints": 522
+    },
+    {
+      "case": "disrupted-6p-4c-12t",
+      "sha256": "01ffbdce690182f821f987a2bfda07d5a36d98b2e4e0e2f3d9e110acce2e770f",
+      "products": 6,
+      "cells": 4,
+      "shifts": 12,
+      "eligible_pairs": 15,
+      "variables": 444,
+      "constraints": 510
+    },
+    {
+      "case": "balanced-8p-6c-20t",
+      "sha256": "78a8e59ef12b5e931bab95ad71740aaafcd35c83a697de2c0d2938569329aabc",
+      "products": 8,
+      "cells": 6,
+      "shifts": 20,
+      "eligible_pairs": 48,
+      "variables": 1560,
+      "constraints": 1708
+    },
+    {
+      "case": "disrupted-8p-6c-20t",
+      "sha256": "fd352dbac839aa193a93602fba7b5b67b81ac3bd156d7822f43000e43e9b4f19",
+      "products": 8,
+      "cells": 6,
+      "shifts": 20,
+      "eligible_pairs": 48,
+      "variables": 1560,
+      "constraints": 1708
+    }
+  ],
+  "solver_settings": {
+    "TimeLimit": 2,
+    "MIPGap": 0.0,
+    "MIPGapAbs": 0.0,
+    "Threads": 1,
+    "Seed": 0,
+    "FeasibilityTol": 1e-07,
+    "IntFeasTol": 1e-06
+  },
+  "warmups_excluded": [
+    {
+      "method": "gurobi",
+      "status": "optimal",
+      "wall_seconds": 0.01743805781006813,
+      "error": null
+    },
+    {
+      "method": "greedy",
+      "status": "heuristic_feasible",
+      "wall_seconds": 0.000534452497959137,
+      "error": null
+    },
+    {
+      "method": "portfolio",
+      "status": "heuristic_feasible",
+      "wall_seconds": 0.0017592161893844604,
+      "error": null
+    }
+  ],
+  "method_order": "rotate (case_index + repeat_index) modulo 3",
+  "timing_scope": "perf_counter wall time: method generation/model/environment setup, extraction and checking; excludes fixture I/O, output serialization, saved-output audit and warmups. Same process; fresh Gurobi environment per run. Portfolio checks all candidates. Not equal compute budgets.",
+  "license_scope": "Actual outcomes recorded per run; no license-capacity claim beyond these tested model sizes.",
+  "limitations": "Synthetic predeclared cases, three-repeat default, shared host, no isolation or real-factory extrapolation. TimeLimit controls optimize only, not total wall time. Heuristics have no optimum certificate."
+}
